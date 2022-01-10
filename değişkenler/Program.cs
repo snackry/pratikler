@@ -1,21 +1,21 @@
 ﻿// See https://aka.ms/new-console-template for more information
-use System;
+
 byte b= 5;
 sbyte c= 5;
 short s= 6;
 ushort us= 8;
 
-int16 i16= 1;
+int i16= 1;
 int i = 2;
-int32 i32 = 312;
-int64 i64= 546;
+int i32 = 312;
+int i64= 546;
 uint ui= 23;
 long l= 54;
 ulong ul= 12;
 
 float f= 5;
 double d= 3.4;
-decimal de= 4.675464;
+decimal de= 4.675464M;
 
 char ch= '2';
 string str1= "furkan";
@@ -31,7 +31,7 @@ object o2= "a";
 object o3= 3;
 object o4= 4.65;
 
-string str1 = string.Empty;
+string str2 = string.Empty;
 str1= "Furkan öztürk";
 string isim= "furkan";
 string soyi="öztürk";
